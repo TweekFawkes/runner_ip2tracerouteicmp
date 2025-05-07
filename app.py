@@ -187,7 +187,8 @@ def main():
                 f"{REMOTE_USER}@{REMOTE_HOST}",
                 REMOTE_PING_PATH, # Use the configured remote ping path
                 "-n", 
-                "-q", "5",
+                # "-q", "3",
+                # "-w", "2", # Wait 2 seconds for a response
                 "-I",
                 ip_address
             ]
